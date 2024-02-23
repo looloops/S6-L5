@@ -32,4 +32,11 @@ body {
 }
 
 footer {
+  margin-top: 100px;
+  max-width: 823px;
+  margin-inline: auto;
+  font-size: 0.8rem;
+  .socials {
+    gap: 30px;
+  }
 }
