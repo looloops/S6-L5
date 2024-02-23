@@ -1,0 +1,35 @@
+@import "./partials/bootstrap-overrides";
+@import "./partials/reset";
+
+body {
+  max-width: 1480px;
+  margin: auto;
+}
+.navbar {
+  .navbar-brand {
+    margin-left: -10px;
+  }
+}
+.tvshows-header {
+  display: flex;
+  align-items: center;
+  h1 {
+    font-size: 2rem;
+  }
+  .genres {
+    padding-left: 15px;
+  }
+}
+
+.media {
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+.margin-bottom-big {
+  margin-bottom: 30px;
+}
+
+footer {
+}
